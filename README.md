@@ -16,5 +16,6 @@ This project has been created using the pipenv framework in order to make its in
 4. Make sure you move to the project folder at this point. Set up pipenv `pipenv install`
 5. Modify the `settings.py` file with the values for your cluster address and your API token
 6. Run the script `pipenv run python src/main.py`
+
 You can run the last command as a cronjob once you have done the other 5 steps to make it a recurring execution.
 In order to execute the script on a Windows host, you will not be able to use pipenv, you will need to make sure you install Python 2.7, along with the libraries metioned in the requirements, and run the script directly with the Python executable. If it works, you can set up an scheduler, which is the equivalent of cronjob in Windows.
